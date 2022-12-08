@@ -24,6 +24,6 @@ F., Schouten, K.: An LSH-based model-words-driven product duplicate detection
 method. In: 30th International Conference on Advanced Information Systems Engi-
 neering (CAiSE 2018). Lecture Notes in Computer Science, vol. 10816, pp. 149–161.
 Springer (2018)
-- Koga, H., Ishibashi, T., Watanabe, T.: Fast agglomerative hierarchical clustering
-algorithm using Locality-Sensitive Hashing. Knowledge and Information Systems
-12(1), 25–53 (2007)
+- Indyk, P., Motwani, R.: Approximate nearest neighbors: towards removing the
+curse of dimensionality. In: Thirtieth Annual ACM Symposium on Theory of Com-
+puting (STOC 1998). pp. 604–613. ACM (1998)
