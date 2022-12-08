@@ -4,12 +4,14 @@ Code for scalable product duplicate detection using Locality Sensitive Hashing. 
 For this project, the task was to create a scalable solution for product duplicate detection. Scalability means that the proposed algorithm could be implemented for multiple Web shops. Furthermore, the project required to use Locality Sensitive Hashing (LSH) to reduce the amount of comparisons.   
 This code provides the implementation of LSH and a simplified version of MSMP and MSMP+. 
 ## Structure and Use of the Code
-### Directory 
 - data: 
-  * jso
+  * TVs-all-merged.json: the data consisting of the product information for 1624 products. 
   * TVbrands.csv: a list of TV brands. 
-
-### Run Software 
+ - Main.py:
+ run this file to obtain the results of the implemented algorithm. 
+ - Function.py:
+ contains all the functions that are used in Main.py.  
+ 
 
 ## References
 - Van Bezu, R., Borst, S., Rijkse, R., Verhagen, J., Vandic, D., Frasincar, F.: Multi-
@@ -17,7 +19,7 @@ component similarity method for web product duplicate detection. In: 30th ACM
 Symposium on Applied Computing (SAC 2015). pp. 761–768. ACM (2015)
 - Van Dam, I., van Ginkel, G., Kuipers, W., Nijenhuis, N., Vandic, D., Frasincar, F.:
 Duplicate detection in web shops using LSH to reduce the number of computations.
-In: 31th ACM Symposium on Applied Computing (SAC 2016). pp. 772–779. ACM (2016) 10
+In: 31th ACM Symposium on Applied Computing (SAC 2016). pp. 772–779. ACM (2016)
 - Hartveld, A., Keulen, M.v., Mathol, D., Noort, T.v., Plaatsman, T., Frasincar,
 F., Schouten, K.: An LSH-based model-words-driven product duplicate detection
 method. In: 30th International Conference on Advanced Information Systems Engi-
