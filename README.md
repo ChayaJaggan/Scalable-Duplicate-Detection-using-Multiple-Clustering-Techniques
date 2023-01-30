@@ -1,5 +1,5 @@
 # Scalable-Duplicate-Detection-using-Multiple-Clustering-Techniques
-Code for scalable product duplicate detection using Locality Sensitive Hashing. All software is written in Pyhton 3.9 (https://www.python.org/). 
+Code for scalable product duplicate detection using multiple clustering techniques. All software is written in Pyhton 3.9 (https://www.python.org/). 
 ## Project Description 
 For this project, the task was to create a scalable solution for product duplicate detection. Scalability means that the proposed algorithm could be implemented for multiple Web shops. Furthermore, the project required to use Locality Sensitive Hashing (LSH) to reduce the amount of comparisons. This code provides the implementation of LSH and a simplified version of MSMP and MSMP+. 
 ## Structure and Use of the Code
