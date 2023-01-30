@@ -1,10 +1,10 @@
 # Scalable-Duplicate-Detection-using-Multiple-Clustering-Techniques
 Code for scalable product duplicate detection using multiple clustering techniques. All software is written in Pyhton 3.9 (https://www.python.org/). 
 ## Project Description 
-For this project, the task was to create a scalable solution for product duplicate detection. Scalability means that the proposed algorithm could be implemented for multiple Web shops. Furthermore, the project required to use Locality Sensitive Hashing (LSH) to reduce the amount of comparisons. This code provides the implementation of LSH and a simplified version of MSMP and MSMP+. 
+For this project, the task was to create a scalable solution for product duplicate detection. Scalability means that the proposed algorithm could be implemented for multiple Web shops. Furthermore, the project required to use Locality Sensitive Hashing (LSH) to reduce the amount of comparisons. This code provides the implementation of LSH and MSMP+ using hierarchical clustering with single linkage, complete linkage, and DBSCAN clustering. 
 ## Structure and Use of the Code
 - data: 
-  * TVs-all-merged.json: the data consisting of the product information for 1624 products. 
+  * TVs-all-merged.json: the data consisting of the product description for 1624 products. 
   * TVbrands.csv: a list of TV brands. 
  - Main.py:
  run this file to obtain the results of the implemented algorithm. 
